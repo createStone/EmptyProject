@@ -21,6 +21,13 @@
 		FCC078131DB0BDFB00328232 /* UIView+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078121DB0BDFB00328232 /* UIView+ZM.m */; };
 		FCC078161DB0BE3D00328232 /* NSDate+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078151DB0BE3D00328232 /* NSDate+ZM.m */; };
 		FCC0781B1DB0BED800328232 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0781A1DB0BED800328232 /* HttpTool.m */; };
+		FCC078281DB0CD8300328232 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC078271DB0CD8300328232 /* StringExtension.swift */; };
+		FCC0782B1DB0CF4400328232 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0782A1DB0CF4400328232 /* UIViewExtension.swift */; };
+		FCC0782D1DB0CF5200328232 /* UIStoryBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0782C1DB0CF5200328232 /* UIStoryBoardExtension.swift */; };
+		FCC0782F1DB0CF5F00328232 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0782E1DB0CF5F00328232 /* UIColorExtension.swift */; };
+		FCC078311DB0CF6700328232 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC078301DB0CF6700328232 /* UIButtonExtension.swift */; };
+		FCC078331DB0CF6D00328232 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC078321DB0CF6D00328232 /* UIBarButtonItemExtension.swift */; };
+		FCC078371DB0D07C00328232 /* MarcoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC078361DB0D07C00328232 /* MarcoUtils.swift */; };
 		FCEE6BD51DAF85D300C1C49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD41DAF85D300C1C49E /* main.m */; };
 		FCEE6BD81DAF85D300C1C49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD71DAF85D300C1C49E /* AppDelegate.m */; };
 		FCEE6BE01DAF85D300C1C49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEE6BDF1DAF85D300C1C49E /* Assets.xcassets */; };
@@ -82,6 +89,14 @@
 		FCC078231DB0C40900328232 /* MacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUtils.h; sourceTree = "<group>"; };
 		FCC078241DB0C40900328232 /* UIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstants.h; sourceTree = "<group>"; };
 		FCC078251DB0C44E00328232 /* VersionCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionCompare.h; sourceTree = "<group>"; };
+		FCC078271DB0CD8300328232 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		FCC078291DB0CE3100328232 /* Slash-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Slash-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCC0782A1DB0CF4400328232 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FCC0782C1DB0CF5200328232 /* UIStoryBoardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryBoardExtension.swift; sourceTree = "<group>"; };
+		FCC0782E1DB0CF5F00328232 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FCC078301DB0CF6700328232 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		FCC078321DB0CF6D00328232 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		FCC078361DB0D07C00328232 /* MarcoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcoUtils.swift; sourceTree = "<group>"; };
 		FCEE6BD01DAF85D300C1C49E /* Slash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEE6BD41DAF85D300C1C49E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEE6BD61DAF85D300C1C49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -250,6 +265,12 @@
 				FCC078121DB0BDFB00328232 /* UIView+ZM.m */,
 				FCC078141DB0BE3D00328232 /* NSDate+ZM.h */,
 				FCC078151DB0BE3D00328232 /* NSDate+ZM.m */,
+				FCC078271DB0CD8300328232 /* StringExtension.swift */,
+				FCC0782A1DB0CF4400328232 /* UIViewExtension.swift */,
+				FCC0782C1DB0CF5200328232 /* UIStoryBoardExtension.swift */,
+				FCC0782E1DB0CF5F00328232 /* UIColorExtension.swift */,
+				FCC078301DB0CF6700328232 /* UIButtonExtension.swift */,
+				FCC078321DB0CF6D00328232 /* UIBarButtonItemExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -434,6 +455,7 @@
 				FCC078231DB0C40900328232 /* MacroUtils.h */,
 				FCC078241DB0C40900328232 /* UIConstants.h */,
 				FCC078251DB0C44E00328232 /* VersionCompare.h */,
+				FCC078361DB0D07C00328232 /* MarcoUtils.swift */,
 			);
 			name = "Marcos(宏)";
 			path = Macros;
@@ -471,6 +493,7 @@
 				FCEE6BE11DAF85D300C1C49E /* LaunchScreen.storyboard */,
 				FCEE6BE41DAF85D300C1C49E /* Info.plist */,
 				FCC077F81DB0AB0000328232 /* PrefixHeader.pch */,
+				FCC078291DB0CE3100328232 /* Slash-Bridging-Header.h */,
 				FCC078181DB0BE9700328232 /* Const.h */,
 				FCEE6BD31DAF85D300C1C49E /* Supporting Files */,
 			);
@@ -579,6 +602,7 @@
 					FCEE6BCF1DAF85D300C1C49E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = G4UP3MLLB8;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					FCEE6BE81DAF85D300C1C49E = {
@@ -768,11 +792,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC078371DB0D07C00328232 /* MarcoUtils.swift in Sources */,
+				FCC078331DB0CF6D00328232 /* UIBarButtonItemExtension.swift in Sources */,
 				FCC078101DB0BDD200328232 /* UIBarButtonItem+ZM.m in Sources */,
 				FCC078131DB0BDFB00328232 /* UIView+ZM.m in Sources */,
+				FCC078311DB0CF6700328232 /* UIButtonExtension.swift in Sources */,
+				FCC0782D1DB0CF5200328232 /* UIStoryBoardExtension.swift in Sources */,
+				FCC078281DB0CD8300328232 /* StringExtension.swift in Sources */,
 				FCC077FB1DB0B56300328232 /* ExploreViewController.m in Sources */,
+				FCC0782F1DB0CF5F00328232 /* UIColorExtension.swift in Sources */,
 				FCC0780D1DB0BDBD00328232 /* NSData+ZM.m in Sources */,
 				FC1FDE5C1DB097810025D228 /* ZMNavigationController.m in Sources */,
+				FCC0782B1DB0CF4400328232 /* UIViewExtension.swift in Sources */,
 				FCC0780A1DB0BDA500328232 /* UIImage+ZM.m in Sources */,
 				FCC078161DB0BE3D00328232 /* NSDate+ZM.m in Sources */,
 				FCC078071DB0BD9200328232 /* NSString+ZM.m in Sources */,
@@ -922,6 +953,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = G4UP3MLLB8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Slash/PrefixHeader.pch";
 				INFOPLIST_FILE = Slash/Info.plist;
@@ -929,6 +961,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.Slash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Slash/Slash-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -938,6 +973,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = G4UP3MLLB8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Slash/PrefixHeader.pch";
 				INFOPLIST_FILE = Slash/Info.plist;
@@ -945,12 +981,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.Slash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Slash/Slash-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		FCEE6C011DAF85D300C1C49E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SlashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -963,6 +1002,7 @@
 		FCEE6C021DAF85D300C1C49E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SlashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -975,6 +1015,7 @@
 		FCEE6C041DAF85D300C1C49E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.SlashUITests;
@@ -986,6 +1027,7 @@
 		FCEE6C051DAF85D300C1C49E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.SlashUITests;

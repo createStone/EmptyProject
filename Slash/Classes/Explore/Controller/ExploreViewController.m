@@ -7,7 +7,7 @@
 //
 
 #import "ExploreViewController.h"
-
+ 
 @interface ExploreViewController ()
 
 @end
@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     DMethod();
+
+  
 
 }
 

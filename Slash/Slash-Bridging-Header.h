@@ -1,18 +1,6 @@
 //
-//  PrefixHeader.pch
-//  Slash
+//  Use this file to import your target's public headers that you would like to expose to Swift.
 //
-//  Created by zemadr3 on 16/10/14.
-//  Copyright © 2016年 zemadr. All rights reserved.
-//
-
-#ifndef PrefixHeader_h
-#define PrefixHeader_h
-#import "MacroUtils.h"                      //工具宏
-#import "UIConstants.h"                     //UI宏
-#import "VersionCompare.h"                  //版本比价
-#import "Const.h"                           //常量头文件
-//导入第三方库
 #import "Masonry.h"
 #import "MBProgressHud.h"
 #import "OSSService.h"
@@ -32,5 +20,3 @@
 #import "UMessage.h"
 #import "UMSocial.h"
 #import "UITableViewCell+WHC_AutoHeightForCell.h"
-#import "Slash-Swift.h"                  //swift file
-#endif /* PrefixHeader_h */

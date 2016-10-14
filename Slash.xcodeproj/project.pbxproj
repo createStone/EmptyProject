@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76C5C7E1C300DE559931C792 /* Pods_Slash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D325AE634EA6A1362AA7BA /* Pods_Slash.framework */; };
-		A64681C846DAF01E2CCEF1D2 /* Pods_SlashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBDF265832831E7F15A8E2E /* Pods_SlashTests.framework */; };
-		A8109478A1A7C6EAF6085D23 /* Pods_SlashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC7897EAE450BEB4C5D75B8 /* Pods_SlashUITests.framework */; };
+		75854AEFF813B8DCCA231D73 /* libPods-Slash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE7CCBFA7D38507AD23CF38 /* libPods-Slash.a */; };
 		FC1FDE4E1DB086E30025D228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1FDE4D1DB086E30025D228 /* Main.storyboard */; };
 		FC1FDE591DB097570025D228 /* ZMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE581DB097570025D228 /* ZMTabBarController.m */; };
 		FC1FDE5C1DB097810025D228 /* ZMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE5B1DB097810025D228 /* ZMNavigationController.m */; };
+		FCC077FB1DB0B56300328232 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC077FA1DB0B56300328232 /* ExploreViewController.m */; };
 		FCEE6BD51DAF85D300C1C49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD41DAF85D300C1C49E /* main.m */; };
 		FCEE6BD81DAF85D300C1C49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD71DAF85D300C1C49E /* AppDelegate.m */; };
 		FCEE6BE01DAF85D300C1C49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEE6BDF1DAF85D300C1C49E /* Assets.xcassets */; };
@@ -40,20 +39,18 @@
 
 /* Begin PBXFileReference section */
 		1FBDF265832831E7F15A8E2E /* Pods_SlashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		362F4931CF26ACB339DE43F7 /* Pods-SlashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlashTests/Pods-SlashTests.debug.xcconfig"; sourceTree = "<group>"; };
-		47F01A5CB5CC61C8973C679E /* Pods-SlashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlashUITests/Pods-SlashUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC7897EAE450BEB4C5D75B8 /* Pods_SlashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE7CCBFA7D38507AD23CF38 /* libPods-Slash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Slash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD261DCCFC2221E11C2E777 /* Pods-Slash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slash/Pods-Slash.debug.xcconfig"; sourceTree = "<group>"; };
-		72D325AE634EA6A1362AA7BA /* Pods_Slash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D301ACD792603A940856246 /* Pods-SlashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlashUITests/Pods-SlashUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9715EE1DB50778E8C8DF0C09 /* Pods-Slash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slash.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slash/Pods-Slash.release.xcconfig"; sourceTree = "<group>"; };
-		F0D83AAD5ACCA306A538629B /* Pods-SlashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlashTests/Pods-SlashTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1FDE4D1DB086E30025D228 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Main/Main.storyboard; sourceTree = "<group>"; };
 		FC1FDE571DB097570025D228 /* ZMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTabBarController.h; sourceTree = "<group>"; };
 		FC1FDE581DB097570025D228 /* ZMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTabBarController.m; sourceTree = "<group>"; };
 		FC1FDE5A1DB097810025D228 /* ZMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMNavigationController.h; sourceTree = "<group>"; };
 		FC1FDE5B1DB097810025D228 /* ZMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMNavigationController.m; sourceTree = "<group>"; };
 		FCC077F81DB0AB0000328232 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCC077F91DB0B56300328232 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		FCC077FA1DB0B56300328232 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
 		FCEE6BD01DAF85D300C1C49E /* Slash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEE6BD41DAF85D300C1C49E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEE6BD61DAF85D300C1C49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C5C7E1C300DE559931C792 /* Pods_Slash.framework in Frameworks */,
+				75854AEFF813B8DCCA231D73 /* libPods-Slash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64681C846DAF01E2CCEF1D2 /* Pods_SlashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8109478A1A7C6EAF6085D23 /* Pods_SlashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +95,9 @@
 		0F74D160D304FD7459E0AB83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72D325AE634EA6A1362AA7BA /* Pods_Slash.framework */,
 				1FBDF265832831E7F15A8E2E /* Pods_SlashTests.framework */,
 				5FC7897EAE450BEB4C5D75B8 /* Pods_SlashUITests.framework */,
+				6BE7CCBFA7D38507AD23CF38 /* libPods-Slash.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,10 +107,6 @@
 			children = (
 				6FD261DCCFC2221E11C2E777 /* Pods-Slash.debug.xcconfig */,
 				9715EE1DB50778E8C8DF0C09 /* Pods-Slash.release.xcconfig */,
-				362F4931CF26ACB339DE43F7 /* Pods-SlashTests.debug.xcconfig */,
-				F0D83AAD5ACCA306A538629B /* Pods-SlashTests.release.xcconfig */,
-				47F01A5CB5CC61C8973C679E /* Pods-SlashUITests.debug.xcconfig */,
-				8D301ACD792603A940856246 /* Pods-SlashUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -216,6 +207,8 @@
 		FC1FDE351DB084FF0025D228 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCC077F91DB0B56300328232 /* ExploreViewController.h */,
+				FCC077FA1DB0B56300328232 /* ExploreViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -713,6 +706,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC077FB1DB0B56300328232 /* ExploreViewController.m in Sources */,
 				FC1FDE5C1DB097810025D228 /* ZMNavigationController.m in Sources */,
 				FCEE6BD81DAF85D300C1C49E /* AppDelegate.m in Sources */,
 				FC1FDE591DB097570025D228 /* ZMTabBarController.m in Sources */,
@@ -860,7 +854,7 @@
 				DEVELOPMENT_TEAM = G4UP3MLLB8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Slash/PrefixHeader.pch";
 				INFOPLIST_FILE = Slash/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.Slash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -876,7 +870,7 @@
 				DEVELOPMENT_TEAM = G4UP3MLLB8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Slash/PrefixHeader.pch";
 				INFOPLIST_FILE = Slash/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZM.Slash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -885,7 +879,6 @@
 		};
 		FCEE6C011DAF85D300C1C49E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 362F4931CF26ACB339DE43F7 /* Pods-SlashTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SlashTests/Info.plist;
@@ -898,7 +891,6 @@
 		};
 		FCEE6C021DAF85D300C1C49E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D83AAD5ACCA306A538629B /* Pods-SlashTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SlashTests/Info.plist;
@@ -911,7 +903,6 @@
 		};
 		FCEE6C041DAF85D300C1C49E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47F01A5CB5CC61C8973C679E /* Pods-SlashUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SlashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -923,7 +914,6 @@
 		};
 		FCEE6C051DAF85D300C1C49E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D301ACD792603A940856246 /* Pods-SlashUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SlashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -8,6 +8,30 @@
 
 #ifndef PrefixHeader_h
 #define PrefixHeader_h
-
-
+//导入第三方库
+#import "Masonry.h"
+#import "MBProgressHud.h"
+#import "OSSService.h"
+#import <AlipaySDK/AlipaySDK.h>
+#import "KeyboardManager.h"
+#import "JLRoutes.h"
+#import "JSONModel.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "REFormattedNumberField.h"
+#import "RETableViewManager.h"
+#import "REValidation.h"
+#import "SDCycleScrollView.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "SVPullToRefresh.h"
+#import "UMessage.h"
+#import "UMSocial.h"
+#import "UITableViewCell+WHC_AutoHeightForCell.h"
+//自定义NSLog
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...)
+#endif
 #endif /* PrefixHeader_h */

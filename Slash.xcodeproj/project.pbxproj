@@ -12,6 +12,15 @@
 		FC1FDE591DB097570025D228 /* ZMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE581DB097570025D228 /* ZMTabBarController.m */; };
 		FC1FDE5C1DB097810025D228 /* ZMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE5B1DB097810025D228 /* ZMNavigationController.m */; };
 		FCC077FB1DB0B56300328232 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC077FA1DB0B56300328232 /* ExploreViewController.m */; };
+		FCC078011DB0BD5B00328232 /* UIColor+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078001DB0BD5B00328232 /* UIColor+ZM.m */; };
+		FCC078041DB0BD7900328232 /* UIViewController+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078031DB0BD7900328232 /* UIViewController+ZM.m */; };
+		FCC078071DB0BD9200328232 /* NSString+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078061DB0BD9200328232 /* NSString+ZM.m */; };
+		FCC0780A1DB0BDA500328232 /* UIImage+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078091DB0BDA500328232 /* UIImage+ZM.m */; };
+		FCC0780D1DB0BDBD00328232 /* NSData+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0780C1DB0BDBD00328232 /* NSData+ZM.m */; };
+		FCC078101DB0BDD200328232 /* UIBarButtonItem+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0780F1DB0BDD200328232 /* UIBarButtonItem+ZM.m */; };
+		FCC078131DB0BDFB00328232 /* UIView+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078121DB0BDFB00328232 /* UIView+ZM.m */; };
+		FCC078161DB0BE3D00328232 /* NSDate+ZM.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC078151DB0BE3D00328232 /* NSDate+ZM.m */; };
+		FCC0781B1DB0BED800328232 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0781A1DB0BED800328232 /* HttpTool.m */; };
 		FCEE6BD51DAF85D300C1C49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD41DAF85D300C1C49E /* main.m */; };
 		FCEE6BD81DAF85D300C1C49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE6BD71DAF85D300C1C49E /* AppDelegate.m */; };
 		FCEE6BE01DAF85D300C1C49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEE6BDF1DAF85D300C1C49E /* Assets.xcassets */; };
@@ -51,6 +60,28 @@
 		FCC077F81DB0AB0000328232 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FCC077F91DB0B56300328232 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
 		FCC077FA1DB0B56300328232 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		FCC077FF1DB0BD5B00328232 /* UIColor+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZM.h"; sourceTree = "<group>"; };
+		FCC078001DB0BD5B00328232 /* UIColor+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZM.m"; sourceTree = "<group>"; };
+		FCC078021DB0BD7900328232 /* UIViewController+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZM.h"; sourceTree = "<group>"; };
+		FCC078031DB0BD7900328232 /* UIViewController+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZM.m"; sourceTree = "<group>"; };
+		FCC078051DB0BD9200328232 /* NSString+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZM.h"; sourceTree = "<group>"; };
+		FCC078061DB0BD9200328232 /* NSString+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZM.m"; sourceTree = "<group>"; };
+		FCC078081DB0BDA500328232 /* UIImage+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZM.h"; sourceTree = "<group>"; };
+		FCC078091DB0BDA500328232 /* UIImage+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZM.m"; sourceTree = "<group>"; };
+		FCC0780B1DB0BDBD00328232 /* NSData+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZM.h"; sourceTree = "<group>"; };
+		FCC0780C1DB0BDBD00328232 /* NSData+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZM.m"; sourceTree = "<group>"; };
+		FCC0780E1DB0BDD200328232 /* UIBarButtonItem+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZM.h"; sourceTree = "<group>"; };
+		FCC0780F1DB0BDD200328232 /* UIBarButtonItem+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZM.m"; sourceTree = "<group>"; };
+		FCC078111DB0BDFB00328232 /* UIView+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZM.h"; sourceTree = "<group>"; };
+		FCC078121DB0BDFB00328232 /* UIView+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZM.m"; sourceTree = "<group>"; };
+		FCC078141DB0BE3D00328232 /* NSDate+ZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZM.h"; sourceTree = "<group>"; };
+		FCC078151DB0BE3D00328232 /* NSDate+ZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZM.m"; sourceTree = "<group>"; };
+		FCC078181DB0BE9700328232 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		FCC078191DB0BED800328232 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		FCC0781A1DB0BED800328232 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		FCC078231DB0C40900328232 /* MacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUtils.h; sourceTree = "<group>"; };
+		FCC078241DB0C40900328232 /* UIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstants.h; sourceTree = "<group>"; };
+		FCC078251DB0C44E00328232 /* VersionCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionCompare.h; sourceTree = "<group>"; };
 		FCEE6BD01DAF85D300C1C49E /* Slash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEE6BD41DAF85D300C1C49E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEE6BD61DAF85D300C1C49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,7 +222,10 @@
 		FC1FDE331DB082CA0025D228 /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				FCC078221DB0C3EA00328232 /* Marcos(宏) */,
 				FC1FDE341DB082E70025D228 /* Category */,
+				FCC078191DB0BED800328232 /* HttpTool.h */,
+				FCC0781A1DB0BED800328232 /* HttpTool.m */,
 			);
 			name = "Tools(工具)";
 			path = Tools;
@@ -200,6 +234,22 @@
 		FC1FDE341DB082E70025D228 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FCC077FF1DB0BD5B00328232 /* UIColor+ZM.h */,
+				FCC078001DB0BD5B00328232 /* UIColor+ZM.m */,
+				FCC078021DB0BD7900328232 /* UIViewController+ZM.h */,
+				FCC078031DB0BD7900328232 /* UIViewController+ZM.m */,
+				FCC078051DB0BD9200328232 /* NSString+ZM.h */,
+				FCC078061DB0BD9200328232 /* NSString+ZM.m */,
+				FCC078081DB0BDA500328232 /* UIImage+ZM.h */,
+				FCC078091DB0BDA500328232 /* UIImage+ZM.m */,
+				FCC0780B1DB0BDBD00328232 /* NSData+ZM.h */,
+				FCC0780C1DB0BDBD00328232 /* NSData+ZM.m */,
+				FCC0780E1DB0BDD200328232 /* UIBarButtonItem+ZM.h */,
+				FCC0780F1DB0BDD200328232 /* UIBarButtonItem+ZM.m */,
+				FCC078111DB0BDFB00328232 /* UIView+ZM.h */,
+				FCC078121DB0BDFB00328232 /* UIView+ZM.m */,
+				FCC078141DB0BE3D00328232 /* NSDate+ZM.h */,
+				FCC078151DB0BE3D00328232 /* NSDate+ZM.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -378,6 +428,17 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		FCC078221DB0C3EA00328232 /* Marcos(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				FCC078231DB0C40900328232 /* MacroUtils.h */,
+				FCC078241DB0C40900328232 /* UIConstants.h */,
+				FCC078251DB0C44E00328232 /* VersionCompare.h */,
+			);
+			name = "Marcos(宏)";
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		FCEE6BC71DAF85D300C1C49E = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +471,7 @@
 				FCEE6BE11DAF85D300C1C49E /* LaunchScreen.storyboard */,
 				FCEE6BE41DAF85D300C1C49E /* Info.plist */,
 				FCC077F81DB0AB0000328232 /* PrefixHeader.pch */,
+				FCC078181DB0BE9700328232 /* Const.h */,
 				FCEE6BD31DAF85D300C1C49E /* Supporting Files */,
 			);
 			path = Slash;
@@ -706,11 +768,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC078101DB0BDD200328232 /* UIBarButtonItem+ZM.m in Sources */,
+				FCC078131DB0BDFB00328232 /* UIView+ZM.m in Sources */,
 				FCC077FB1DB0B56300328232 /* ExploreViewController.m in Sources */,
+				FCC0780D1DB0BDBD00328232 /* NSData+ZM.m in Sources */,
 				FC1FDE5C1DB097810025D228 /* ZMNavigationController.m in Sources */,
+				FCC0780A1DB0BDA500328232 /* UIImage+ZM.m in Sources */,
+				FCC078161DB0BE3D00328232 /* NSDate+ZM.m in Sources */,
+				FCC078071DB0BD9200328232 /* NSString+ZM.m in Sources */,
 				FCEE6BD81DAF85D300C1C49E /* AppDelegate.m in Sources */,
+				FCC078041DB0BD7900328232 /* UIViewController+ZM.m in Sources */,
 				FC1FDE591DB097570025D228 /* ZMTabBarController.m in Sources */,
+				FCC078011DB0BD5B00328232 /* UIColor+ZM.m in Sources */,
 				FCEE6BD51DAF85D300C1C49E /* main.m in Sources */,
+				FCC0781B1DB0BED800328232 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

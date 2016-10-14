@@ -8,6 +8,10 @@
 
 #ifndef PrefixHeader_h
 #define PrefixHeader_h
+#import "MacroUtils.h"                      //工具宏
+#import "UIConstants.h"                     //UI宏
+#import "VersionCompare.h"                  //版本比价
+#import "Const.h"                           //常量头文件
 //导入第三方库
 #import "Masonry.h"
 #import "MBProgressHud.h"
@@ -28,10 +32,5 @@
 #import "UMessage.h"
 #import "UMSocial.h"
 #import "UITableViewCell+WHC_AutoHeightForCell.h"
-//自定义NSLog
-#ifdef DEBUG
-#define DLog(...) NSLog(__VA_ARGS__)
-#else
-#define DLog(...)
-#endif
+
 #endif /* PrefixHeader_h */

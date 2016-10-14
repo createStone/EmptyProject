@@ -29,7 +29,6 @@
         <!--角色-->
         <scene sceneID="yPX-iq-8og">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IiK-AT-o0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="u94-sr-Gio" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="3hC-8j-kjV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -40,7 +39,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Gr-JQ-BhL" id="ZSU-u5-Kpg">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -52,6 +51,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="角色" id="ogp-d1-QbT"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IiK-AT-o0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="215" y="-319"/>
         </scene>
@@ -85,7 +85,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sNN-0v-oSc" id="Eqb-cp-3Hf">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -121,7 +121,6 @@
         <!--探索-->
         <scene sceneID="07n-1G-cnE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JuQ-GF-12Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="JQs-V0-ns0" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="HcG-GD-euj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -132,7 +131,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="knL-jY-okP" id="WqW-Ec-m3S">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IJ-kN-gpB">
@@ -151,13 +150,14 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="探索" id="QtA-TN-knm"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JuQ-GF-12Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="898" y="-1003"/>
         </scene>
         <!--探索-->
         <scene sceneID="pjo-IA-x92">
             <objects>
-                <viewController id="Me9-It-bzk" sceneMemberID="viewController">
+                <viewController id="Me9-It-bzk" customClass="ExploreViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f0g-X7-mwq"/>
                         <viewControllerLayoutGuide type="bottom" id="kw4-u7-ueY"/>
@@ -186,7 +186,6 @@
         <!--探索-->
         <scene sceneID="YBv-Ya-UvQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LnU-dG-YeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="kBD-Sv-wtf" customClass="ZMNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="探索" image="tansuo_btn_nor" selectedImage="tansuo_btn_sel" id="NWn-HD-8fd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ot1-Lh-ere">
@@ -197,6 +196,7 @@
                         <segue destination="Me9-It-bzk" kind="relationship" relationship="rootViewController" id="olU-nL-4kx"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LnU-dG-YeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-543" y="-984"/>
         </scene>
@@ -213,7 +213,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NCv-Ng-vWQ" id="QSj-SB-2jK">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>

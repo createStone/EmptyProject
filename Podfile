@@ -19,8 +19,10 @@ target 'Slash' do
    pod 'Fabric'
    pod 'Crashlytics'
    pod 'IQKeyboardManager', '3.3.7'
-
-
+   pod 'AliPay'
+   pod 'AliyunOSSiOS'
+   pod 'UMengMessage'
+   pod 'UMengSocial'
   target 'SlashTests' do
     inherit! :search_paths
     # Pods for testing
